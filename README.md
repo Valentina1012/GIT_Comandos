@@ -7,7 +7,8 @@
 * git commit -a -m "Comentario" : Realiza un add y un commit.
 * git restore . : Descartar los cambios localmente (no commiteados).
 * git restore --staged <file> : Descartar un archivo no commiteado.
-* git pull : Bajar los cambios de la rama en la que estas posicionado.  
+* git pull (fetch + merge): Bajar los cambios de la rama en la que estas posicionado.
+* git fetch : Descarga el contenido de la rama pero no lo une con el local. Para que se combine hay que realizar un merge.
 
 ## Comandos para el uso de ramas
 * git checkout -b nombre-nueva-rama : Crear una nueva rama.
