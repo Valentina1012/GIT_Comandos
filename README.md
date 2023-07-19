@@ -1,23 +1,28 @@
 # Comandos Basicos
 * git init . : Crea el repositorio vacio en el que estas posicionado en github. Tambien sirve para convertir un proyecto existente y sin versión en un repositorio de Git.
+* git touch (nombre.extension) : Crea un archivo en la ubicacion actual.
 * git add * . : Guarda todos los cambios en la rama actual.
 * git add (nombre archivo) . : Guarda los cambios del archivo en la rama actual.
 * git commit -m "Comentario" : Realizar un commit con un comentario.
+* git commit -a -m "Comentario" : Realiza un add y un commit.
 * git restore . : Descartar los cambios localmente (no commiteados).
 * git restore --staged <file> : Descartar un archivo no commiteado.
 * git pull : Bajar los cambios de la rama en la que estas posicionado.  
 
 ## Comandos para el uso de ramas
 * git checkout -b nombre-nueva-rama : Crear una nueva rama.
-* git checkout "nombre-de-rama" : Cambiarse de rama.
+* git checkout "nombre-rama" : Cambiarse de rama.
 * git push origin "nombre-rama" : Subir un commit a la rama especificada.
 * git branch : Devuelve todas las ramas y la que esta en uso en un color diferente.
+* git branch -d "nombre-rama": Elimina la rama especificada.
   
 # Comandos mas avanzados
 * git show (codigo de commit) : Muestra los cambios agregados en el commit
 * git log : Muestra el historial de commits realizados al repo.
 * git log --oneline : Muestra lo mismo que el git log pero abreviado.
+* vi "nombre.extension" : Muestra y permite editar un archivo.
 * esc:wq : Salir del modo insertar de la consola.
+* ls -a : Muestra todos los archivos en la carpeta actual (incluyendo los ocultos).
 * git remote add origin (origen repo) : Añadir el origen del repo de forma remota.
 
 ## Mergear una rama con la tuya (combinar)
