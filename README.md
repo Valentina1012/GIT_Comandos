@@ -27,6 +27,7 @@
 * git remote add origin (origen repo) : Añadir el origen del repo de forma remota.
 
 ## Mergear una rama con la tuya (combinar)
+* git merge --abort : Abortar el merge (en caso de que te arrepientas)
 Pasos:
 <p>git checkout rama-a-mergear -> Cambiarse a la rama a mergear</p>
 <p>git pull -> Bajarse todos los cambios de la rama</p>
