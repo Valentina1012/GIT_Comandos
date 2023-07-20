@@ -1,6 +1,6 @@
 # Comandos Basicos
 * git init . : Crea el repositorio vacio en el que estas posicionado en github. Tambien sirve para convertir un proyecto existente y sin versión en un repositorio de Git.
-* git touch (nombre.extension) : Crea un archivo en la ubicacion actual.
+* touch (nombre.extension) : Crea un archivo en la ubicacion actual.
 * git add * . : Guarda todos los cambios en la rama actual.
 * git add (nombre archivo) . : Guarda los cambios del archivo en la rama actual.
 * git commit -m "Comentario" : Realizar un commit con un comentario.
