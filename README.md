@@ -16,6 +16,8 @@
 * git push origin "nombre-rama" : Subir un commit a la rama especificada.
 * git branch : Devuelve todas las ramas y la que esta en uso en un color diferente.
 * git branch -d "nombre-rama": Elimina la rama especificada.
+* git branch -m "nombre-nuevo” : Cambiar el nombre de la rama actual.
+* git branch -m "old-name" "new-name": Cambiar el nombre de otra rama.
   
 # Comandos mas avanzados
 * git show (codigo de commit) : Muestra los cambios agregados en el commit
