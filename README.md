@@ -27,6 +27,7 @@
 * esc:wq : Salir del modo insertar de la consola.
 * ls -a : Muestra todos los archivos en la carpeta actual (incluyendo los ocultos).
 * git remote add origin (origen repo) : Añadir el origen del repo de forma remota.
+* git commit --amend : Agregar un archivo a un commit. Lo agrega al ultimo commit no subido al repo. IMPORTANTE: antes hay que hacer un add
 
 ## Mergear una rama con la tuya (combinar)
 * git merge --abort : Abortar el merge (en caso de que te arrepientas)
