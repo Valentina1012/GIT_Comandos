@@ -41,3 +41,4 @@ Pasos:
 ## Hacer pull rebase (organizar commits)
 * git pull --rebase : Hace un pull pero ordenando los commits cuando hace el merge, de forma que no sea necesario hacer un commit auxiliar para unir ambos commits de forma recursiva.
 * Generalmente se puede utilizar cuando mas de una rama hizo cambios al mismo tiempo y se tiene que realizar un merge.
+* Es recomendable NO UTILIZARLO con commits pusheados, es decir con commits subidos al master o una rama porque el rebase destruye el historial de commits. 
