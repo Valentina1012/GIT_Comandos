@@ -11,7 +11,7 @@
 * git fetch : Descarga el contenido de la rama pero no lo une con el local. Para que se combine hay que realizar un merge.
 
 ## Comandos para el uso de ramas
-* git checkout -b nombre-nueva-rama : Crear una nueva rama.
+* git checkout -b nombre-nueva-rama o git switch -c (+ nuevo): Crear una nueva rama.
 * git checkout "nombre-rama" : Cambiarse de rama.
 * git push origin "nombre-rama" : Subir un commit a la rama especificada.
 * git branch : Devuelve todas las ramas y la que esta en uso en un color diferente.
